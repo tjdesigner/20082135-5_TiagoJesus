@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: 'Kaisei HarunoUmi', serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
+    background: #fff;
+    border-bottom: solid 1px orange;
+    padding-top: 16px;
+}
+
+.header-content {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    width: 160px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 0 16px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 22px;
+    padding: 8px 0;
+}
+
+li.menu-item a {
+    padding: 8px;
+    cursor: pointer;
+    transition: all 0.2s;
+    text-decoration: none;
+    color: #333
+}
+
+li.menu-item a:hover {
+    border-bottom: solid 2px orange;
+}
+
+li.active {
+    border-bottom: solid 2px #333;
+}
