@@ -9,7 +9,7 @@ header {
     align-items: center;
     min-height: 50px;
     background: #fff;
-    border-bottom: solid 1px orange;
+    border-bottom: solid 1px #e2a22d;
     padding-top: 16px;
 }
 
@@ -50,9 +50,25 @@ li.menu-item a {
 }
 
 li.menu-item a:hover {
-    border-bottom: solid 2px orange;
+    border-bottom: solid 2px #e2a22d;
 }
 
 li.active {
     border-bottom: solid 2px #333;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    background: #e2a22d;
+}
+
+footer .content-footer {
+    font-family: 'Kaisei HarunoUmi', serif;
+    color: #fff;
+    font-size: 14px;
 }
