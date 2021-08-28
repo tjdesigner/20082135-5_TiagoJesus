@@ -20,7 +20,7 @@
                                 <div class='img-container'> <img class='card-img-top' src=" . $produto['img'] . "></div>
                                 <div class='card-body'>
                                     <h5 class='card-title'>" . $produto['titulo'] . "</h5>
-                                    <p class='descricao'>" . $produto['descricao'] . "</p>
+                                    <p class='descricao text-truncate'>" . $produto['descricao'] . "</p>
                                     <a href=" . "index.php?page=" . $produto['link'] . " class='btn btn-primary'> Saiba mais </a>
                                 </div>
                             </div> 

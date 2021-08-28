@@ -92,11 +92,21 @@ footer .content-footer {
 }
 
 .img-container img{
-    max-height: 150px;
-    background-size: cover;
+    background-position: revert;
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
 }
 
 .content {
     background: #fff;
     margin-bottom: 80px;
+}
+
+/* DAALHES */
+
+.img-detalhes {
+    object-fit: cover;
+    max-height: 200px;
+    width: 100%;
 }
