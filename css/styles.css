@@ -58,7 +58,7 @@ li.active {
 }
 
 footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     display: flex;
@@ -71,4 +71,32 @@ footer .content-footer {
     font-family: 'Kaisei HarunoUmi', serif;
     color: #fff;
     font-size: 14px;
+}
+
+/* QUEM SOMOS */
+
+.page-container {
+    margin: 0 auto;
+    max-width: 900px;
+    background: #f1f1f1;
+}
+
+.produtos-container{
+    display: flex;
+    justify-content: center;
+}
+
+.produtos {
+    list-style-type: none;
+    padding: 0;
+}
+
+.img-container img{
+    max-height: 150px;
+    background-size: cover;
+}
+
+.content {
+    background: #fff;
+    margin-bottom: 80px;
 }
